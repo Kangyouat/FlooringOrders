@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWCCorp.UI", "SWCCorp.UI\SWCCorp.UI.csproj", "{4470F910-17FC-4C06-B388-EF68E3BD5D7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlooringOrders.UI", "SWCCorp.UI\FlooringOrders.UI.csproj", "{4470F910-17FC-4C06-B388-EF68E3BD5D7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWCCorp.Models", "SWCCorp.Models\SWCCorp.Models.csproj", "{620EBC0A-44D9-47B3-B523-F2630AACB433}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlooringOrders.Models", "SWCCorp.Models\FlooringOrders.Models.csproj", "{620EBC0A-44D9-47B3-B523-F2630AACB433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWCCorp.BLL", "SWCCorp.BLL\SWCCorp.BLL.csproj", "{34D22D33-B522-4D48-AF76-4E2F2A619123}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlooringOrders.BLL", "SWCCorp.BLL\FlooringOrders.BLL.csproj", "{34D22D33-B522-4D48-AF76-4E2F2A619123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWCCorp.Data", "SWCCorp.Data\SWCCorp.Data.csproj", "{FF54C51E-5845-41A1-9856-9E0C0CE3C488}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlooringOrders.Data", "SWCCorp.Data\FlooringOrders.Data.csproj", "{FF54C51E-5845-41A1-9856-9E0C0CE3C488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWCCorpTests", "SWCCorpTests\SWCCorpTests.csproj", "{E05EB908-7288-48CF-9CFD-1EE46DDE43FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlooringOrdersTests", "SWCCorpTests\FlooringOrdersTests.csproj", "{E05EB908-7288-48CF-9CFD-1EE46DDE43FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34D22D33-B522-4D48-AF76-4E2F2A619123}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SWCCorp.BLL</RootNamespace>
-    <AssemblyName>SWCCorp.BLL</AssemblyName>
+    <ProjectGuid>{4470F910-17FC-4C06-B388-EF68E3BD5D7B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SWCCorp.UI</RootNamespace>
+    <AssemblyName>SWCCorp.UI</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -31,7 +33,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,18 +42,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OrderManager.cs" />
-    <Compile Include="OrderManagerFactory.cs" />
+    <Compile Include="ConsoleIO.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Workflows\AddAnOrderWorkflow.cs" />
+    <Compile Include="Workflows\EditAnOrderWorkflow.cs" />
+    <Compile Include="Workflows\OrderLookupWorkflow.cs" />
+    <Compile Include="Workflows\DeleteAnOrderWorkflow.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SWCCorp.Data\SWCCorp.Data.csproj">
-      <Project>{ff54c51e-5845-41a1-9856-9e0c0ce3c488}</Project>
-      <Name>SWCCorp.Data</Name>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SWCCorp.BLL\FlooringOrders.BLL.csproj">
+      <Project>{34d22d33-b522-4d48-af76-4e2f2a619123}</Project>
+      <Name>FlooringOrders.BLL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SWCCorp.Models\SWCCorp.Models.csproj">
+    <ProjectReference Include="..\SWCCorp.Models\FlooringOrders.Models.csproj">
       <Project>{620ebc0a-44d9-47b3-b523-f2630aacb433}</Project>
-      <Name>SWCCorp.Models</Name>
+      <Name>FlooringOrders.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
