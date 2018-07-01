@@ -1,0 +1,12 @@
+C:\Repos\kangyoua-thao-individualwork\SWCCorp.UI\SWCCorp.Models\bin\Debug\SWCCorp.Models.dll
+C:\Repos\kangyoua-thao-individualwork\SWCCorp.UI\SWCCorp.Models\bin\Debug\SWCCorp.Models.pdb
+C:\Repos\kangyoua-thao-individualwork\SWCCorp.UI\SWCCorp.Models\obj\Debug\SWCCorp.Models.csproj.CoreCompileInputs.cache
+C:\Repos\kangyoua-thao-individualwork\SWCCorp.UI\SWCCorp.Models\obj\Debug\SWCCorp.Models.dll
+C:\Repos\kangyoua-thao-individualwork\SWCCorp.UI\SWCCorp.Models\obj\Debug\SWCCorp.Models.pdb
+C:\Repos\SWCCorp.UI\SWCCorp.Models\bin\Debug\SWCCorp.Models.dll
+C:\Repos\SWCCorp.UI\SWCCorp.Models\bin\Debug\SWCCorp.Models.pdb
+C:\Repos\SWCCorp.UI\SWCCorp.Models\obj\Debug\SWCCorp.Models.csprojAssemblyReference.cache
+C:\Repos\SWCCorp.UI\SWCCorp.Models\obj\Debug\SWCCorp.Models.csproj.CoreCompileInputs.cache
+C:\Repos\SWCCorp.UI\SWCCorp.Models\obj\Debug\SWCCorp.Models.dll
+C:\Repos\SWCCorp.UI\SWCCorp.Models\obj\Debug\SWCCorp.Models.pdb
+C:\Repos\kangyoua-thao-individualwork\SWCCorp.UI\SWCCorp.Models\obj\Debug\SWCCorp.Models.csprojAssemblyReference.cache
